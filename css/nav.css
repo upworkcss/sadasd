@@ -1,0 +1,837 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing : border-box;
+    justify-content: center;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+header{
+    box-shadow: -1px 13px 12px -8px rgba(0,0,0,.15);
+}
+header .title a{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    box-shadow: -1px 13px 12px -8px rgba(0,0,0,.15);
+}
+header .title h1{
+    padding-top: 30px;
+    margin-left: 150px;
+    color: #e94560;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-weight: 600;
+    font-size: 38px;
+}
+header .search{
+    margin-top: -38px;
+    width: 729px;
+    margin-left: 496px;
+    border-radius: 28px;
+    border: 2px solid #cececf;
+    padding-top: 8px;
+}
+header .search i{
+    padding-left: 20px;
+}
+header .search i span{
+    font-size: 20px;
+}
+header .search input{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: -4px;
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 5px;
+}
+header .search a{
+    text-decoration: none;
+}
+header .search h1{
+    color: black;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    float: right;
+    margin-right: 29px;
+    border-left: 2px solid #cececf;
+    height: 48px;
+    margin-top: -8px;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+header .shopping{
+    float: right;
+    margin-top: -40px;
+    margin-right: 318px;
+    position: relative;
+    background-color: snow;
+    color: black;
+}
+header .shopping p{
+    position: absolute;
+    right: -15px;
+    background: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 20px;
+    text-align: center;
+    color: white;
+    top: 24px;
+}
+header .categories{
+    margin-left: 300px;
+    margin-top: 55px;
+}
+header .categories select{
+    background: none;
+    border: none;
+    font-size: 19px;
+}
+header ul{
+    padding-bottom: 70px;
+    margin-right: 280px;
+    margin-top: -23px;
+}
+header ul li{
+    float: right;
+    text-align: center;
+    display: inline;
+}
+nav ul li a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+nav ul li .li-3{
+    margin-right: 167px;
+}
+nav ul li a p{
+    font-size: 18px;
+    overflow: hidden;
+}
+.payment-grid {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 400px;
+}
+.payment-grid .payment {
+  width: 323px;
+}
+.payment-grid .payment .i {
+  text-align: center;
+  font-size: 30px;
+  margin-right: 154px;
+}
+.payment-grid .payment h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.payment-grid .payment p {
+  font-size: 13px;
+  padding-top: 20px;
+  color: gray;
+}
+.last-fotter {
+  background: #e94560;
+  margin-top: 200px;
+}
+.last-fotter h1 {
+  text-align: center;
+  padding: 10px 0px;
+  color: white;
+  font-family: 'Germania One', cursive;
+  font-size: 20px;
+}
+
+/*!media 1600*/
+@media (min-width:1251px)and (max-width:1650px){
+    header .title h1 {
+        font-size: 24px;
+    }
+    header .search {
+        width: 609px;
+        margin-left: 363px;
+    }
+    header .shopping {
+        margin-right: 160px;
+    }  
+    header .search input {
+         width: auto;
+    }  
+    header .categories {
+         margin-left: 161px;
+    }  
+    header .categories select {
+         font-size: 15px;
+   }   
+    header ul {
+         margin-right: 135px;
+    }
+}
+/*! media 1600*/
+@media (min-width:1251px)and (max-width:1550px){
+    .payment-grid .payment .i {
+        margin-right: 78px;
+    }
+    .payment-grid .payment {
+        width: 265px;
+    }
+
+    .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 18px;
+    }
+
+    .payment-grid .payment p {
+        font-size: 11px;
+    }
+}
+/*!media 1200*/
+@media (min-width:1201px) and (max-width:1250px) {
+    header .title h1 {
+        font-size: 24px;
+      }
+    
+      header .search {
+        width: 609px;
+        margin-left: 363px;
+      }
+    
+      header .shopping {
+        margin-right: 160px;
+      }
+    
+      header .search input {
+        width: auto;
+      }
+    
+      header .categories {
+        margin-left: 161px;
+      }
+    
+      header .categories select {
+        font-size: 15px;
+      }
+    
+      header ul {
+        margin-right: 135px;
+      }
+      .payment-grid .payment .i {
+        margin-right: 78px;
+      }
+      .payment-grid .payment {
+        width: 265px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 18px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 11px;
+      }
+}
+/*!media 1100  */
+@media (min-width:1101px) and (max-width:1200px) {
+    header .title h1 {
+        font-size: 19px;
+        margin-left: 54px;
+      }
+    
+      header .search h1 {
+        font-size: 15px;
+        padding-top: 13px;
+      }
+    
+      header .search {
+        width: 46%;
+        margin-left: 322px;
+      }
+      header .shopping {
+        margin-right: 10%;
+      }
+      nav ul li a p {
+        font-size: 15px;
+      }
+      header .search input {
+        width: 96px;
+      }
+    
+      header .categories {
+        margin-left: 61px;
+      }
+    
+      header .categories select {
+        font-size: 15px;
+      }
+    
+      header ul {
+        margin-right: -1px;
+      }
+      .payment-grid .payment .i {
+        margin-right: 78px;
+      }
+    
+      .payment-grid {
+        margin-left: -1%;
+        column-gap: 10%;
+    
+      }
+    
+      .payment-grid .payment {
+        width: 142px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 12px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+      }
+    
+      .last-fotter {
+        margin-top: 169px;
+      }
+}
+/*! media 1000  */
+@media (min-width:1001px) and (max-width:1100px) {
+    header .title h1 {
+        font-size: 19px;
+        margin-left: 54px;
+      }
+    
+      header .search h1 {
+        font-size: 15px;
+        padding-top: 13px;
+      }
+    
+      header .search {
+        width: 46%;
+        margin-left: 322px;
+      }
+      header .shopping {
+        margin-right: 10%;
+      }
+      nav ul li a p {
+        font-size: 15px;
+      }
+     header .search input {
+      width: 75px;
+      }
+    
+      header .categories {
+        margin-left: 61px;
+      }
+    
+      header .categories select {
+        font-size: 15px;
+      }
+    
+      header ul {
+        margin-right: -1px;
+      }
+      .payment-grid .payment .i {
+        margin-right: 78px;
+      }
+    
+      .payment-grid {
+        margin-left: -1%;
+        column-gap: 10%;
+      }
+    
+      .payment-grid .payment {
+        width: 142px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 12px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+      }
+    
+      .last-fotter {
+        margin-top: 169px;
+      }
+}
+/*! media 900  */
+@media (min-width:901px) and (max-width:1000px){
+    header .title h1 {
+        font-size: 19px;
+        margin-left: 54px;
+      }
+    
+      header .search h1 {
+        font-size: 15px;
+        padding-top: 13px;
+      }
+    
+      header .search {
+        width: 46%;
+        margin-left: 322px;
+      }
+      header .shopping {
+        margin-right: 10%;
+      }
+    
+      nav ul li a p {
+        font-size: 15px;
+      }
+    
+      header .search input {
+        width: 69px;
+      }
+    
+      header .categories {
+        margin-left: 61px;
+      }
+    
+      header .categories select {
+        font-size: 15px;
+      }
+    
+      header ul {
+        margin-right: -1px;
+      }
+      .payment-grid .payment .i {
+        margin-right: 78px;
+      }
+    
+      .payment-grid {
+        margin-left: -1%;
+        column-gap: 10%;
+      }
+    
+      .payment-grid .payment {
+        width: 142px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 12px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+      }
+    
+      .last-fotter {
+        margin-top: 169px;
+      }
+}
+/*! media 800*/
+@media (min-width:801px) and (max-width:900px){
+    header .title h1 {
+        font-size: 19px;
+        margin-left: 54px;
+      }
+    
+      header .search h1 {
+        font-size: 15px;
+        padding-top: 13px;
+      }
+    
+      header .search {
+        width: 46%;
+        margin-left: 322px;
+      }
+      header .shopping {
+        margin-right: 10%;
+      }
+    
+      nav ul li a p {
+        font-size: 15px;
+      }
+      header .search input {
+        width: 64px;
+      }
+    
+      header .categories {
+        margin-left: 61px;
+      }
+    
+      header .categories select {
+        font-size: 15px;
+      }
+    
+      header ul {
+        margin-right: -1px;
+      }
+      .payment-grid .payment .i {
+        margin-right: 78px;
+      }
+      
+      .payment-grid {
+        margin-left: 4%;
+        column-gap: 10%;
+      }
+      .payment-grid .payment {
+        width: 127px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 12px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+      }
+    
+      .last-fotter {
+        margin-top: 169px;
+      }
+}
+/*! media 700*/
+@media (min-width:701px) and (max-width:800px) {
+    header .title h1 {
+        font-size: 19px;
+        margin-left: 54px;
+      }
+    
+      header .search h1 {
+        font-size: 15px;
+        padding-top: 13px;
+      }
+    
+      header .search {
+        width: 46%;
+        margin-left: 322px;
+      }
+      header .shopping {
+        margin-right: 4%;
+      }
+    
+      nav ul li a p {
+        font-size: 15px;
+      }
+      header .search input {
+        width: 69px;
+      }
+      header .categories {
+        margin-left: 61px;
+      }
+      header .categories select {
+        font-size: 15px;
+      }
+      header ul {
+        margin-right: -1px;
+        margin-top: -57px;
+      }
+      .payment-grid .payment {
+        width: 142px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 12px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+      }
+    
+      .last-fotter {
+        margin-top: 169px;
+      }
+      .payment-grid {
+        margin-left: 4%;
+        column-gap: 3%;
+      }
+}
+/*! media 600*/
+@media (min-width:601px) and (max-width:700px){
+    header .title h1 {
+        font-size: 19px;
+        margin-left: 42px;
+      }
+    
+      header .search h1 {
+        font-size: 15px;
+        padding-top: 13px;
+      }
+    
+      header .search {
+        width: 46%;
+        margin-left: 215px;
+      }
+      header .search input {
+        width: 64px;
+        font-size: 13px;
+      }
+      header .shopping {
+        margin-right: 4%;
+      }
+      nav ul li a p {
+        font-size: 15px;
+      }
+      header .categories {
+        margin-left: 61px;
+      }
+      header .categories select {
+        font-size: 15px;
+      }
+      header ul {
+        margin-right: -1px;
+        margin-top: -57px;
+      } 
+      .payment-grid {
+        margin-left: 4%;
+        column-gap: 3%;
+      }
+    
+      .payment-grid .payment {
+        width: 124px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 11px;
+        
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+        width: 95px;
+      }
+    
+      .last-fotter {
+        margin-top: 169px;
+      }
+}
+/*! media 500*/
+@media (min-width:501px) and (max-width:600px) {
+    header {
+        margin-left: -33px;
+      }
+      header .title h1 {
+        font-size: 19px;
+        margin-left: 42px;
+      }
+    
+      header .search h1 {
+        font-size: 11px;
+        padding-top: 16px;
+      }
+      header .search i span {
+        font-size: 16px;
+      }
+      header .search {
+        width: 46%;
+        margin-left: 215px;
+      }
+      header .search input {
+        width: 55px;
+        font-size: 11px;
+      }
+      header .shopping {
+        margin-right: 6%;
+      }
+    
+      nav ul li a p {
+        font-size: 15px;
+      }
+      header .categories {
+        margin-left: 61px;
+      }
+      header .categories select {
+        font-size: 15px;
+      }
+      header ul {
+        margin-right: -1px;
+        margin-top: -57px;
+      }
+      .payment-grid {
+        margin-left: 4%;
+        column-gap: 3%;
+      }
+    
+      .payment-grid .payment {
+        width: 101px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 11px;
+        
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+        width: 95px;
+      }
+    
+      .last-fotter {
+        margin-top: 169px;
+      }
+}
+/*! media 400 */
+@media (min-width:401px) and (max-width:500px){
+    header {
+        margin-left: -33px;
+      }
+      header .title h1 {
+        font-size: 19px;
+        margin-left: 42px;
+      }
+      header .search i {
+        padding-left: 12px;
+      }
+      header .search h1 {
+        font-size: 11px;
+        padding-top: 18px;
+      }
+      header .search i span {
+        font-size: 16px;
+      }
+      header .search {
+        width: 46%;
+        margin-left: 215px;
+      }
+      header .search input {
+        width: 55px;
+        font-size: 11px;
+      }
+      header .shopping {
+        margin-right: 6%;
+        visibility:hidden;
+      }
+      nav ul li a p {
+        font-size: 15px;
+      }
+      header .categories {
+        margin-left: 61px;
+      }
+      header .categories select {
+        font-size: 15px;
+      }
+      header ul {
+        margin-right: -1px;
+        margin-top: -57px;
+      }
+      .payment-grid .payment .i {
+        margin-right: 78px;
+      }
+      .body4 .left .fotter {
+        margin-top: 40px;
+      }
+      .payment-grid {
+        margin-left: 4%;
+        column-gap: 3%;
+      }
+    
+      .payment-grid .payment {
+        width: 77px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 13px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+        width: 73px;
+      }
+    
+      .last-fotter {
+        margin-top: 102px;
+      }
+}
+/*! media 300*/
+@media (min-width:301px) and (max-width:400px) {
+    header {
+        margin-left: -33px;
+      }
+      nav{
+        display: none;
+      }
+      header .title h1 {
+        font-size: 14px;
+        margin-left: 42px;
+      }
+      header .search i {
+        padding-left: 12px;
+      }
+      header .search h1 {
+        font-size: 11px;
+        padding-top: 18px;
+        margin-right: 7px;
+      }
+      header .search i span {
+        font-size: 11px;
+      }
+      header .search {
+        width: 51%;
+        margin-left: 159px;
+      }
+      header .search input {
+        width: 53px;
+        font-size: 9px;
+        padding-left: 0px;
+      }
+      header .shopping {
+        margin-right: 6%;
+        visibility:hidden;
+      }
+      nav ul li a p {
+        font-size: 9px;
+      }
+      header .categories {
+        margin-left: 61px;
+      }
+      header .categories select {
+        font-size: 12px;
+      }
+      header ul {
+        margin-right: 4px;
+        margin-top: -57px;
+      }
+      header ul li {
+        width: 60px;
+      }
+      .payment-grid .payment .i {
+        margin-right: 78px;
+      }
+      .body4 .left .fotter {
+        margin-top: 40px;
+      }
+      .payment-grid {
+        margin-left: 4%;
+        column-gap: 3%;
+        grid-template-columns: auto auto;
+      }
+    
+      .payment-grid .payment {
+        width: 135px;
+        margin-top: 47px;
+      }
+    
+      .payment-grid .payment h1 {
+        padding-top: 40px;
+        font-size: 13px;
+      }
+    
+      .payment-grid .payment p {
+        font-size: 7px;
+        width: 73px;
+      }
+    
+      .last-fotter {
+        margin-top: 116px;
+      }
+}

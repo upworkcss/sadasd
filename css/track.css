@@ -1,0 +1,28 @@
+main{
+    text-align: center;
+    margin-top: 100px;
+}
+main .body h1{
+    font-family: 'Cairo', sans-serif;
+}
+main .body p{
+    color: #e94560;
+}
+main .body .map{
+    margin-top: 20px;
+}
+main .body iframe{
+    border-radius: 237px;
+    width: 387px;
+    height: 291px;
+}
+main .body span {
+    color: #e94560;
+}
+
+
+
+
+
+
+

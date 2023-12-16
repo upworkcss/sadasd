@@ -1,0 +1,26 @@
+#small-1:hover{
+    border: 1px solid red;
+}
+.small img{
+    display: block;
+    width: 5%;
+    margin-top: 50px;
+}
+.large img{
+    width: 25%;
+}
+.large .large-1{
+    display: inline;
+}
+.large{
+    position: absolute;
+    top: 350px;
+    right: 220px;
+}
+.large #large-2,#large-3,#large-4{
+    /* display: none; */
+}
+.small{
+    margin-top: 131px;
+    margin-left: 356px;
+}
